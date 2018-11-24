@@ -1,0 +1,73 @@
+[umihico@umihi ex01-keras-binary2binary-prediction]$ python main.py
+Using TensorFlow backend.
+main.py:24: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(input_dim=2, units=10)`
+  model.add(Dense(input_dim=2, output_dim=10))
+main.py:26: UserWarning: Update your `Dense` call to the Keras 2 API: `Dense(units=1)`
+  model.add(Dense(output_dim=1))
+main.py:30: UserWarning: The `nb_epoch` argument in `fit` has been renamed `epochs`.
+  model.fit(X, Y, nb_epoch=30, batch_size=32)
+Epoch 1/30
+2018-11-24 09:35:31.690508: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+10000/10000 [==============================] - 0s 37us/step - loss: 0.6990 - acc: 0.5025
+Epoch 2/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.6853 - acc: 0.5247
+Epoch 3/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.6758 - acc: 0.7388
+Epoch 4/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.6647 - acc: 0.6786
+Epoch 5/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.6504 - acc: 0.7389
+Epoch 6/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.6313 - acc: 0.8820
+Epoch 7/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.6062 - acc: 0.9877
+Epoch 8/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.5740 - acc: 0.9968
+Epoch 9/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.5343 - acc: 1.0000
+Epoch 10/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.4876 - acc: 1.0000
+Epoch 11/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.4357 - acc: 1.0000
+Epoch 12/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.3813 - acc: 1.0000
+Epoch 13/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.3279 - acc: 1.0000
+Epoch 14/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.2785 - acc: 1.0000
+Epoch 15/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.2352 - acc: 1.0000
+Epoch 16/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.1986 - acc: 1.0000
+Epoch 17/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.1684 - acc: 1.0000
+Epoch 18/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.1439 - acc: 1.0000
+Epoch 19/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.1241 - acc: 1.0000
+Epoch 20/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.1080 - acc: 1.0000
+Epoch 21/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0948 - acc: 1.0000
+Epoch 22/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0840 - acc: 1.0000
+Epoch 23/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0750 - acc: 1.0000
+Epoch 24/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0674 - acc: 1.0000
+Epoch 25/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0611 - acc: 1.0000
+Epoch 26/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0556 - acc: 1.0000
+Epoch 27/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0510 - acc: 1.0000
+Epoch 28/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0469 - acc: 1.0000
+Epoch 29/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0434 - acc: 1.0000
+Epoch 30/30
+10000/10000 [==============================] - 0s 23us/step - loss: 0.0403 - acc: 1.0000
+input (1, 1) prediction 0.05039797 answer 0
+input (0, 0) prediction 0.018860945 answer 0
+input (1, 0) prediction 0.9572481 answer 1
+input (0, 1) prediction 0.9595123 answer 1
