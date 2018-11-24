@@ -1,0 +1,33 @@
+2018-11-23 22:13:09.735678: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2018-11-23 22:13:16.070828: W tensorflow/core/framework/allocator.cc:122] Allocation of 23887872 exceeds 10% of system memory.
+x_train shape: (60000, 28, 28, 1)
+60000 train samples
+10000 test samples
+Train on 60000 samples, validate on 10000 samples
+Epoch 1/12
+128/60000 [..............................] - ETA: 1:12:31 - loss: 2.2901 - acc: 0.07812018-11-23 22:13:21.212571: W tensorflow/core/framework/allocator.cc:122] Allocation of 23887872 exceeds 10% of system memory.
+Epoch 2/12
+128/60000 [..............................] - ETA: 41:26 - loss: 0.1270 - acc: 0.9609
+Epoch 3/12
+128/60000 [..............................] - ETA: 3:38 - loss: 0.0567 - acc: 0.9844
+Epoch 4/12
+128/60000 [..............................] - ETA: 39:14 - loss: 0.0383 - acc: 0.9922
+Epoch 5/12
+128/60000 [..............................] - ETA: 39:34 - loss: 0.0228 - acc: 0.9844
+Epoch 6/12
+128/60000 [..............................] - ETA: 40:19 - loss: 0.0245 - acc: 0.9922
+Epoch 7/12
+128/60000 [..............................] - ETA: 39:49 - loss: 0.0598 - acc: 0.9844
+Epoch 8/12
+128/60000 [..............................] - ETA: 39:36 - loss: 0.0588 - acc: 0.9844
+Epoch 9/12
+128/60000 [..............................] - ETA: 39:25 - loss: 0.0519 - acc: 0.9688
+Epoch 10/12
+128/60000 [..............................] - ETA: 32:18 - loss: 0.0198 - acc: 0.9922
+Epoch 11/12
+128/60000 [..............................] - ETA: 39:41 - loss: 0.0250 - acc: 0.9844
+Epoch 12/12
+60000/60000 [==============================] - 2372s 40ms/step - loss: 0.0253 - acc: 0.9922 - val_loss: 0.0250 - val_acc: 0.9925
+Using TensorFlow backend.
+Test loss: 0.024990633228303385
+Test accuracy: 0.9925
